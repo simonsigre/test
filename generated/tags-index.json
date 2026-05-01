@@ -1,0 +1,47 @@
+{
+  "agent": [
+    "202605010930_GoCortexSnippet.json"
+  ],
+  "alerts": [
+    "202604281100_GoCortexSnippet.json"
+  ],
+  "asset-inventory": [
+    "202605010930_GoCortexSnippet.json"
+  ],
+  "authentication": [
+    "202604301530_GoCortexSnippet.json"
+  ],
+  "deduplication": [
+    "202604281100_GoCortexSnippet.json"
+  ],
+  "detection": [
+    "202604301530_GoCortexSnippet.json"
+  ],
+  "enrichment": [
+    "202605011030_GoCortexSnippet.json"
+  ],
+  "ingestion": [
+    "202605020815_GoCortexSnippet.json"
+  ],
+  "multi-tenant": [
+    "202605020815_GoCortexSnippet.json"
+  ],
+  "parsing": [
+    "202605020815_GoCortexSnippet.json"
+  ],
+  "phishing": [
+    "202605011030_GoCortexSnippet.json"
+  ],
+  "playbook": [
+    "202605011030_GoCortexSnippet.json"
+  ],
+  "reporting": [
+    "202605010930_GoCortexSnippet.json"
+  ],
+  "tuning": [
+    "202604281100_GoCortexSnippet.json"
+  ],
+  "xql": [
+    "202604301530_GoCortexSnippet.json"
+  ]
+}

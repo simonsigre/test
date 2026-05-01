@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GoCortex Snippets</title>
+    <link>https://gocortex.example/</link>
+    <description>Short, actionable Cortex tips, published as they ship.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 May 2026 08:15:00 GMT</lastBuildDate>
+    <atom:link href="https://gocortex.example/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Cortex XSIAM] Cloud audit logs from multiple tenants land in the same dataset without any tenant context, making per-tenant detections impractical.</title>
+      <link>https://gocortex.example/module/cortex-xsiam</link>
+      <guid isPermaLink="false">gocortex-snippet-202605020815</guid>
+      <pubDate>Sat, 02 May 2026 08:15:00 GMT</pubDate>
+      <category>Cortex XSIAM</category>
+      <description>Cloud audit logs from multiple tenants land in the same dataset without any tenant context, making per-tenant detections impractical.
+
+Use a parsing rule to extract the tenant identifier from the resource ARN at ingest time, then promote it to a first-class field so detections and dashboards can filter on it directly.</description>
+    </item>
+    <item>
+      <title>[Cortex XSOAR] Phishing triage playbooks stall when the analyst has to copy artefacts between tabs to enrich them.</title>
+      <link>https://gocortex.example/module/cortex-xsoar</link>
+      <guid isPermaLink="false">gocortex-snippet-202605011030</guid>
+      <pubDate>Fri, 01 May 2026 10:30:00 GMT</pubDate>
+      <category>Cortex XSOAR</category>
+      <description>Phishing triage playbooks stall when the analyst has to copy artefacts between tabs to enrich them.
+
+Add a sub-playbook that extracts URLs, domains and file hashes from the email body and runs the standard reputation tasks in parallel, writing the verdicts back onto the parent incident before the analyst opens it.</description>
+    </item>
+    <item>
+      <title>[Cortex XDR] New endpoints occasionally appear without the agent installed and slip past the asset inventory review.</title>
+      <link>https://gocortex.example/module/cortex-xdr</link>
+      <guid isPermaLink="false">gocortex-snippet-202605010930</guid>
+      <pubDate>Fri, 01 May 2026 09:30:00 GMT</pubDate>
+      <category>Cortex XDR</category>
+      <description>New endpoints occasionally appear without the agent installed and slip past the asset inventory review.
+
+Schedule a daily XQL report that joins the asset inventory against the agent telemetry table and surfaces hosts seen in the last 24 hours with no agent heartbeat.</description>
+    </item>
+    <item>
+      <title>[Cortex XDR] Analysts cannot quickly identify repeated failed logins from the same source.</title>
+      <link>https://gocortex.example/module/cortex-xdr</link>
+      <guid isPermaLink="false">gocortex-snippet-202604301530</guid>
+      <pubDate>Thu, 30 Apr 2026 15:30:00 GMT</pubDate>
+      <category>Cortex XDR</category>
+      <description>Analysts cannot quickly identify repeated failed logins from the same source.
+
+Run an XQL query that aggregates failed authentication attempts by source IP over a fifteen minute window and flags any source crossing the threshold of ten attempts.</description>
+    </item>
+    <item>
+      <title>[Cortex XSIAM] Noisy alert ingestion drowns out genuine incidents during peak business hours.</title>
+      <link>https://gocortex.example/module/cortex-xsiam</link>
+      <guid isPermaLink="false">gocortex-snippet-202604281100</guid>
+      <pubDate>Tue, 28 Apr 2026 11:00:00 GMT</pubDate>
+      <category>Cortex XSIAM</category>
+      <description>Noisy alert ingestion drowns out genuine incidents during peak business hours.
+
+Group alerts on the source host plus the MITRE technique within a 30 minute window so duplicates collapse into a single incident before reaching the analyst queue.</description>
+    </item>
+  </channel>
+</rss>
