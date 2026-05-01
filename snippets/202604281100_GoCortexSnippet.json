@@ -1,0 +1,14 @@
+{
+  "id": "202604281100",
+  "created_at": "2026-04-28T11:00:00Z",
+  "product_module": "Cortex XSIAM",
+  "module_slug": "cortex-xsiam",
+  "problem_statement": "Noisy alert ingestion drowns out genuine incidents during peak business hours.",
+  "solution": "Group alerts on the source host plus the MITRE technique within a 30 minute window so duplicates collapse into a single incident before reaching the analyst queue.",
+  "time_to_implement": "20 minutes",
+  "tags": [
+    "alerts",
+    "deduplication",
+    "tuning"
+  ]
+}

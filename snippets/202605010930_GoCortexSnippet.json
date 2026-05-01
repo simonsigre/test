@@ -1,0 +1,14 @@
+{
+  "id": "202605010930",
+  "created_at": "2026-05-01T09:30:00Z",
+  "product_module": "Cortex XDR",
+  "module_slug": "cortex-xdr",
+  "problem_statement": "New endpoints occasionally appear without the agent installed and slip past the asset inventory review.",
+  "solution": "Schedule a daily XQL report that joins the asset inventory against the agent telemetry table and surfaces hosts seen in the last 24 hours with no agent heartbeat.",
+  "time_to_implement": "15 minutes",
+  "tags": [
+    "asset-inventory",
+    "agent",
+    "reporting"
+  ]
+}
