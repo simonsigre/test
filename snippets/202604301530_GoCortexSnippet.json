@@ -1,14 +1,16 @@
 {
-  "id": "202604301530",
   "created_at": "2026-04-30T15:30:00Z",
-  "product_module": "Cortex XDR",
+  "id": "202604301530",
+  "media_base64": "",
+  "media_type": "",
   "module_slug": "cortex-xdr",
-  "problem_statement": "Analysts cannot quickly identify repeated failed logins from the same source.",
-  "solution": "Run an XQL query that aggregates failed authentication attempts by source IP over a fifteen minute window and flags any source crossing the threshold of ten attempts.",
-  "time_to_implement": "5 minutes",
+  "product_module": "Cortex XDR",
+  "scenario": "Analysts cannot quickly identify repeated failed logins from the same source.",
+  "snippet": "Run an XQL query that aggregates failed authentication attempts by source IP over a fifteen minute window and flags any source crossing the threshold of ten attempts.",
   "tags": [
     "xql",
     "authentication",
     "detection"
-  ]
+  ],
+  "time_to_implement": "5 minutes"
 }

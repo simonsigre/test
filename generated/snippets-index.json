@@ -4,34 +4,39 @@
     "file": "202605020815_GoCortexSnippet.json",
     "id": "202605020815",
     "module": "Cortex XSIAM",
-    "module_slug": "cortex-xsiam"
+    "module_slug": "cortex-xsiam",
+    "scenario": "Cloud audit logs from multiple tenants land in the same dataset without any tenant context, making per-tenant detections impractical."
   },
   {
     "created_at": "2026-05-01T10:30:00Z",
     "file": "202605011030_GoCortexSnippet.json",
     "id": "202605011030",
     "module": "Cortex XSOAR",
-    "module_slug": "cortex-xsoar"
+    "module_slug": "cortex-xsoar",
+    "scenario": "Phishing triage playbooks stall when the analyst has to copy artefacts between tabs to enrich them."
   },
   {
     "created_at": "2026-05-01T09:30:00Z",
     "file": "202605010930_GoCortexSnippet.json",
     "id": "202605010930",
     "module": "Cortex XDR",
-    "module_slug": "cortex-xdr"
+    "module_slug": "cortex-xdr",
+    "scenario": "New endpoints occasionally appear without the agent installed and slip past the asset inventory review."
   },
   {
     "created_at": "2026-04-30T15:30:00Z",
     "file": "202604301530_GoCortexSnippet.json",
     "id": "202604301530",
     "module": "Cortex XDR",
-    "module_slug": "cortex-xdr"
+    "module_slug": "cortex-xdr",
+    "scenario": "Analysts cannot quickly identify repeated failed logins from the same source."
   },
   {
     "created_at": "2026-04-28T11:00:00Z",
     "file": "202604281100_GoCortexSnippet.json",
     "id": "202604281100",
     "module": "Cortex XSIAM",
-    "module_slug": "cortex-xsiam"
+    "module_slug": "cortex-xsiam",
+    "scenario": "Noisy alert ingestion drowns out genuine incidents during peak business hours."
   }
 ]
