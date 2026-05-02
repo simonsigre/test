@@ -5,7 +5,7 @@
   "module_slug": "cortex-xsiam",
   "problem_statement": "Cloud audit logs from multiple tenants land in the same dataset without any tenant context, making per-tenant detections impractical.",
   "solution": "Use a parsing rule to extract the tenant identifier from the resource ARN at ingest time, then promote it to a first-class field so detections and dashboards can filter on it directly.",
-  "time_to_implement": "25 minutes",
+  "time_to_implement": "15 minutes",
   "tags": [
     "ingestion",
     "parsing",
